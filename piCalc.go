@@ -16,7 +16,7 @@ func getPointsInCircle(iters int) int {
 	pointsInCircleQuad := 0
 
 	for i := 0; i < iters; i++ {
-		var x = rand.Float64()
+		x := rand.Float64()
 		y := rand.Float64()
 
 		if isPointInCircle(x, y) {
